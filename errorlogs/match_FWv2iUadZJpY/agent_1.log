@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 194, in agent
+    logging.info(f"{[x for x in DIRECTIONS]}")
+TypeError: 'type' object is not iterable
+Agent timed out

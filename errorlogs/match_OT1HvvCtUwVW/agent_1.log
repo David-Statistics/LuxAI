@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\discerning_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\discerning_bot\agent.py", line 309, in agent
+    target = get_build_loc(unit, player, game_state.map, True, opponent)
+  File "C:\Users\265245\Documents\Lux\discerning_bot\agent.py", line 194, in get_build_loc
+    if ranks[0][1] is not None:
+TypeError: 'NoneType' object is not subscriptable
+Agent timed out

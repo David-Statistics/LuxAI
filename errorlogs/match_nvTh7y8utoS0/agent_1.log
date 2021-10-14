@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 273, in agent
+    move_cmd = take_step(unit, TARGET_LOCS[unit.id], game_state.map, allow_cities[unit.id])
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 94, in take_step
+    target = m.get_cell(target[0], target[1])
+TypeError: 'Cell' object is not subscriptable
+Agent timed out

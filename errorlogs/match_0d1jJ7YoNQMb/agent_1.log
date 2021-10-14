@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 253, in agent
+    target = get_gather_target(unit, player, game_state.map, resource_tiles, False, map_values)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 144, in get_gather_target
+    taken_targets = [TARGET_LOCS[id] for id in TARGET_LOCS.keys() if id != u.id]
+AttributeError: 'list' object has no attribute 'keys'
+Agent timed out

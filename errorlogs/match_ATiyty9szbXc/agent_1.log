@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 224, in agent
+    target = get_gather_target(unit, player, game_state.map, resource_tiles, False)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 131, in get_gather_target
+    logging.info(f"{[(k, values[k]) for k in values.keys]}")
+TypeError: 'builtin_function_or_method' object is not iterable
+Agent timed out

@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\first_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\first_bot\agent.py", line 169, in agent
+    actions.append(build(unit, player, game_state.map))   
+  File "C:\Users\265245\Documents\Lux\first_bot\agent.py", line 99, in build
+    if target_dist > 7 and u.can_build():
+TypeError: can_build() missing 1 required positional argument: 'game_map'
+Agent timed out

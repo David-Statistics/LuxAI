@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\aggro_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\aggro_bot\agent.py", line 272, in agent
+    for k, city in opponent.cities.item():
+AttributeError: 'dict' object has no attribute 'item'
+Agent timed out

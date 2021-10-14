@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\first_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\first_bot\agent.py", line 167, in agent
+    actions.append(gather(unit, player, game_state.map, resource_tiles))
+  File "C:\Users\265245\Documents\Lux\first_bot\agent.py", line 117, in gather
+    return u.move(u.pos.direction_to(best_tile.pos))
+AttributeError: 'NoneType' object has no attribute 'pos'

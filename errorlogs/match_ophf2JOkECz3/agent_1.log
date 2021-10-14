@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 224, in agent
+    target = get_gather_target(unit, player, game_state.map, resource_tiles, False, map_values)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 135, in get_gather_target
+    dist = math.abs(u.pos.x - tile[0]) + math.abs(u.pos.y - tile[1])
+AttributeError: module 'math' has no attribute 'abs'
+Agent timed out

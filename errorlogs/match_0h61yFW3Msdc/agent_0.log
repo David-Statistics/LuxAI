@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\aggro_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\aggro_bot\agent.py", line 252, in agent
+    target = find_home(unit, player, game_state.map)
+  File "C:\Users\265245\Documents\Lux\aggro_bot\agent.py", line 175, in find_home
+    return get_coords(closest_city_tile)
+  File "C:\Users\265245\Documents\Lux\aggro_bot\agent.py", line 83, in get_coords
+    return (c.pos.x, c.pos.y)
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

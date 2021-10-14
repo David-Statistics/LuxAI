@@ -1,0 +1,7 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+C:\Users\265245\Documents\Lux\second_bot\agent.py:240: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if type(target) is 'Cell':
+C:\Users\265245\Documents\Lux\second_bot\agent.py:247: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if type(target) is 'str':

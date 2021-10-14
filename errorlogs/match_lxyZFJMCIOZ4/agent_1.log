@@ -1,0 +1,18 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 230, in agent
+    move_cmd = take_step(unit, target, game_state.map, allow_city)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 104, in take_step
+    return u.move(u.pos.direction_to(m.get_cell(u.pos.x, u.pos.y + 1)))
+  File "C:\Users\265245\Documents\Lux\second_bot\lux\game_map.py", line 95, in direction_to
+    closest_dist = self.distance_to(target_pos)
+  File "C:\Users\265245\Documents\Lux\second_bot\lux\game_map.py", line 62, in distance_to
+    return self - pos
+  File "C:\Users\265245\Documents\Lux\second_bot\lux\game_map.py", line 56, in __sub__
+    return abs(pos.x - self.x) + abs(pos.y - self.y)
+AttributeError: 'Cell' object has no attribute 'x'
+Agent timed out

@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 255, in agent
+    target = get_build_loc(unit, player, game_state.map) 
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 202, in get_build_loc
+    return get_coords(target_loc)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 81, in get_coords
+    return (c.pos.x, c.pos.y)
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

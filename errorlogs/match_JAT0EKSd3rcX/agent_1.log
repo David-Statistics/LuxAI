@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 3, in <module>
+    from agent import agent
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 240
+    if type(target) = 'Cell':
+                    ^
+SyntaxError: invalid syntax
+Agent timed out

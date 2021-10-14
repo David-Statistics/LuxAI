@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\265245\Documents\Lux\second_bot\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 268, in agent
+    logging.info(f"\nTURN {game_state.turn}\n{[(id, UNIT_LOCATIONS[id], TARGET_LOCS[id]) for id in UNIT_LOCATIONS.keys()]}")
+  File "C:\Users\265245\Documents\Lux\second_bot\agent.py", line 268, in <listcomp>
+    logging.info(f"\nTURN {game_state.turn}\n{[(id, UNIT_LOCATIONS[id], TARGET_LOCS[id]) for id in UNIT_LOCATIONS.keys()]}")
+KeyError: 'u_2'
+Agent timed out
